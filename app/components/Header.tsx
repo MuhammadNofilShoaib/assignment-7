@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className={`${click ? " opacity-100 border translate-x-0" : " opacity-0 translate-x-2"} duration-300 ease-out bg-black/10 backdrop-blur-md  shadow-2xl md:hidden flex flex-col justify-center items-center gap-[20px] capitalize absolute w-full p-[20px] z-50 rounded-lg border-2 border-black/20`}>
+      <div className={`${click ? " opacity-100 border" : " opacity-0"} duration-300 ease-out bg-black/10 backdrop-blur-md  shadow-2xl md:hidden flex flex-col justify-center items-center gap-[20px] capitalize absolute w-full p-[20px] z-50 rounded-lg border-2 border-black/20`}>
         <Link href="/" className='text-[#181717] font-[500] text-[21px] hover:bg-black/20 hover:shadow-sm rounded-md px-2 duration-300 ease-in-out'>work</Link >
         <Link href="/" className='text-[#181717] font-[500] text-[21px] hover:bg-black/20 hover:shadow-sm rounded-md px-2 duration-300 ease-in-out'>about</Link >
         <Link href="/" className='text-[#181717] font-[500] text-[21px] hover:bg-black/20 hover:shadow-sm rounded-md px-2 duration-300 ease-in-out'>playground</Link >
